@@ -1,5 +1,6 @@
 from urllib.parse import parse_qs, urlparse
 
+
 import pyotp
 import requests
 from kiteconnect import KiteConnect
