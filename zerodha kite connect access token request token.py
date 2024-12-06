@@ -47,6 +47,6 @@ print("Request Token : " + e2)
 
 # save request token key as text file
 
-file1 = open("Data\\request_session.txt","w")   #write mode
+file1 = open("Data\\request_token.txt","w")   #write mode
 file1.write(str(e2))
 file1.close()
