@@ -42,4 +42,4 @@ except Exception as e:
     e2 = str(e1).split("request_token=",1)[1]
     e2 = e2[:32]
 
-print(e2)
+print("Request Token : " + e2)
