@@ -40,7 +40,6 @@ try:
 except Exception as e:
     e1 = str(e)
     e2 = str(e1).split("request_token=",1)[1]
-    # print(e1)
     e2 = e2[:32]
 
 print(e2)
